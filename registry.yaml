@@ -1,0 +1,16 @@
+- module: github.com/grafana/xk6-dashboard
+- module: github.com/grafana/xk6-faker
+- module: github.com/szkiba/xk6-ansible-vault
+- module: github.com/szkiba/xk6-cache
+#- module: github.com/szkiba/xk6-chai
+- module: github.com/szkiba/xk6-csv
+- module: github.com/szkiba/xk6-dotenv
+#- module: github.com/szkiba/xk6-g0
+#- module: github.com/szkiba/xk6-mock
+- module: github.com/szkiba/xk6-output-plugin
+- module: github.com/szkiba/xk6-prometheus
+- module: github.com/szkiba/xk6-toml
+- module: github.com/szkiba/xk6-top
+- module: github.com/grafana/xk6-ts
+- module: github.com/szkiba/xk6-yaml
+- module: gitlab.com/szkiba/xk6-banner

@@ -1,0 +1,29 @@
+name: watch
+
+on:
+  schedule:
+    - cron: "10 */2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  packages: write
+  pages: write
+  id-token: write
+  actions: write
+
+jobs:
+  registry:
+    uses: grafana/k6-extension-registry/.github/workflows/custom-registry.yml@main
+    with:
+      origin: https://registry.k6.io/registry.json
+      source: registry.yaml
+
+  distro:
+    needs: registry
+    uses: grafana/k6dist/.github/workflows/distro.yml@main
+    with:
+      args: https://ivan.szkiba.hu/k6i2n/registry.json
+      distro_name: k6i2n
+      docker_target: "release,with-browser"
+      #    if: ${{needs.registry.outputs.changed == 'true'}}
