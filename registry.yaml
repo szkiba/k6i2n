@@ -5,7 +5,7 @@
 #- module: github.com/szkiba/xk6-chai
 - module: github.com/szkiba/xk6-csv
 - module: github.com/szkiba/xk6-dotenv
-#- module: github.com/szkiba/xk6-g0
+- module: github.com/szkiba/xk6-g0
 #- module: github.com/szkiba/xk6-mock
 - module: github.com/szkiba/xk6-output-plugin
 - module: github.com/szkiba/xk6-prometheus

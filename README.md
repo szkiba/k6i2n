@@ -25,6 +25,7 @@ Name | Description
 [xk6-dashboard](https://github.com/grafana/xk6-dashboard)|Create a web-based metrics dashboard
 [xk6-faker](https://github.com/grafana/xk6-faker)|Generate random fake data
 [xk6-prometheus](https://github.com/szkiba/xk6-prometheus)|Prometheus HTTP exporter for k6
+[xk6-g0](https://github.com/szkiba/xk6-g0)|Write k6 tests in golang
 [xk6-top](https://github.com/szkiba/xk6-top)|Updating the current k6 metrics summaries on the terminal during the test run
 [xk6-dotenv](https://github.com/szkiba/xk6-dotenv)|Load env vars from a .env file
 [xk6-ts](https://github.com/github.com/grafana/xk6-ts)|Add TypeScript support for k6
@@ -44,7 +45,6 @@ These extensions are temporarily not included in the distribution.
 
 Name | Description
 -----|------------
-[xk6-g0](https://github.com/szkiba/xk6-g0)|Write k6 tests in golang
 [xk6-chai](https://github.com/szkiba/xk6-chai)|Embed k6chaijs into the k6 binary
 [xk6-mock](https://github.com/szkiba/xk6-mock)|Mock HTTP(S) servers
 
