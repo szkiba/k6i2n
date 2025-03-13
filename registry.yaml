@@ -11,6 +11,6 @@
 - module: github.com/szkiba/xk6-prometheus
 - module: github.com/szkiba/xk6-toml
 - module: github.com/szkiba/xk6-top
-- module: github.com/grafana/xk6-ts
+#- module: github.com/grafana/xk6-ts
 - module: github.com/szkiba/xk6-yaml
 - module: gitlab.com/szkiba/xk6-banner
