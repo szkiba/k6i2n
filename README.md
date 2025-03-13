@@ -1,5 +1,8 @@
 # k6i2n
 
+> [!WARNING]
+> Automatic release of new versions is temporarily disabled.
+
 **Custom k6 distribution with Iván Szkiba's k6 extensions**
 
 This custom k6 distribution contains the k6 extensions created by [Iván Szkiba](https://github.com/szkiba). Some of them have become official Grafana k6 extensions and have been transferred to the [`grafana`](https://github.com/grafana) GitHub organization.
